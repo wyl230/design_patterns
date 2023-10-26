@@ -215,3 +215,10 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+code/Bridge/mine/.cache/clangd/index
+**.cache/clangd/index
+code/Builder/mine/.cache/clangd/index
+code/Command/mine
+code/Decorator/mine/.cache/clangd/index
+code/Facade/mine/.cache/clangd/index
+.cache

@@ -7,14 +7,36 @@
 
 #include "Builder.h"
 
-Builder::Builder() { m_prod = new Product(); }
 
-Builder::~Builder() {}
+Builder::Builder(){
+	m_prod = new Product();
+}
 
-void Builder::buildPartA() {}
 
-void Builder::buildPartB() {}
 
-void Builder::buildPartC() {}
+Builder::~Builder(){
 
-Product *Builder::getResult() { return m_prod; }
+}
+
+
+
+
+
+void Builder::buildPartA(){
+
+}
+
+
+void Builder::buildPartB(){
+
+}
+
+
+void Builder::buildPartC(){
+
+}
+
+
+Product* Builder::getResult(){
+	return m_prod;
+}
